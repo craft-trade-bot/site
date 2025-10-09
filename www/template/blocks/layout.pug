@@ -1,0 +1,40 @@
+doctype html
+html(lang=current.lang)
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(name='robots' content='noarchive')
+        title= current.title
+        meta(name='description' content=current.description)
+        link(href='/styles.css' rel='stylesheet')
+
+        //- BEGIN - стили внутрестатейных картинок
+        style.
+            .prose img {
+                max-height: 300px;
+                width: 600px;
+                object-fit: cover;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .prose table th {
+                text-align: center;
+            }
+            .prose table td + td, .prose table th + th {
+                border-left: 1px solid white;
+            }
+        //- END - стили внутрестатейных картинок
+
+        link(rel="canonical" href=current.canonical)
+
+    body(class='bg-gray-800')
+        header(class="bg-gray-900")
+            div(class="mx-auto max-w-screen-xl p-4")
+                a(class="text-2xl text-white" href="/") Home
+
+        main
+            block body
+
+        footer(class="bg-gray-900")
+            div(class="mx-auto max-w-screen-xl p-4")
+                a(class="text-2xl text-white" href="/") Home
