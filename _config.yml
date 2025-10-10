@@ -5,7 +5,7 @@ author:             Craft Trade Company
 baseurl:            "/startbootstrap-clean-blog-jekyll"
 url:                "https://craft-trade-bot.online"
 
-telegram_bot:       "craft_trade_bot"
+telegram_bot:       "craft_trade_bot?start=official"
 telegram_channel:   "+NL0KuVkfenE2Yzcy"
 
 # Add your google-analytics ID here to activate google analytics
