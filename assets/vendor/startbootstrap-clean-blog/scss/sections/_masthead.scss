@@ -24,6 +24,14 @@ header.masthead {
         padding: 200px 0 150px;
         color: white;
 
+        .subheading {
+            font-size: 24px;
+            font-weight: 300;
+            font-family: $headings-font-family;
+            line-height: 1.1;
+            display: block;
+        }
+
         @media only screen and (min-width: 768px) {
             padding: 200px 0;
         }
@@ -38,14 +46,7 @@ header.masthead {
             margin-top: 0;
         }
 
-        .subheading {
-            font-size: 24px;
-            font-weight: 300;
-            line-height: 1.1;
-            display: block;
-            margin: 10px 0 0;
-            font-family: $headings-font-family;
-        }
+        .subheading { margin: 10px 0 0; }
 
         @media only screen and (min-width: 768px) {
             h1 {
@@ -59,28 +60,17 @@ header.masthead {
             font-size: 35px;
         }
 
-        .meta,
-        .subheading {
-            line-height: 1.1;
-            display: block;
-        }
-
-        .subheading {
-            font-size: 24px;
-            // font-weight: 600;
-            margin: 10px 0 30px;
-            font-family: $headings-font-family;
-        }
+        .subheading { margin: 10px 0 30px; }
 
         .meta {
+            line-height: 1.1;
+            display: block;
             font-size: 20px;
             font-weight: 300;
             font-style: italic;
             font-family: $font-family-base;
 
-            a {
-                color: $white;
-            }
+            a { color: $white; }
         }
 
         @media only screen and (min-width: 768px) {
