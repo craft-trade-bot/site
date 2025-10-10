@@ -2,7 +2,7 @@ title:              Craft Trade
 email:              your-email@example.com
 description:        Современное приложение для создания торговых ботов на крипторынке
 author:             Craft Trade Company
-baseurl:            "/startbootstrap-clean-blog-jekyll"
+baseurl:
 url:                "https://craft-trade-bot.online"
 
 telegram_bot:       "craft_trade_bot?start=official"
