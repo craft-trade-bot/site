@@ -91,7 +91,7 @@ background: '/img/posts/01.jpg'
 
 **Популярные варианты:**
 
-- **Binance → BNB** — классика жанра, скидка до 25% при оплате комиссий в BNB
+- **Binance → BNB** — скидка до 25% при оплате комиссий в BNB
 - **Gate.io → GT** — аналогичная система со скидкой до 25%
 - **Bybit → BIT** — более молодой токен, но принцип тот же
 - **Yobit → YO** — менее популярная биржа, но система работает
@@ -284,7 +284,7 @@ background: '/img/posts/01.jpg'
 
 **Официальные страницы с комиссиями крупных бирж:**
 
-- Binance: https://www.binance.com/ru/fee/schedule
-- ByBit:   https://www.bybit.com/en/announcement-info/fee-rate/
-- BingX:   https://bingx.com/ru-ru/support/costs
-- OKX:     https://www.okx.com/ru/fees
+- [Binance](https://www.binance.com/ru/fee/schedule)
+- [ByBit](https://www.bybit.com/en/announcement-info/fee-rate/)
+- [BingX](https://bingx.com/ru-ru/support/costs)
+- [OKX](https://www.okx.com/ru/fees)
