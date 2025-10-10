@@ -4,6 +4,7 @@ description:        Современное приложение для созд�
 author:             Craft Trade Company
 baseurl:
 url:                "https://crafttradebot.ru"
+favicon:            "/img/favicon.ico"
 
 telegram_bot:       "craft_trade_bot?start=official"
 telegram_channel:   "+NL0KuVkfenE2Yzcy"
