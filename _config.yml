@@ -8,10 +8,6 @@ url:                "https://craft-trade-bot.online"
 telegram_bot:       "craft_trade_bot?start=official"
 telegram_channel:   "+NL0KuVkfenE2Yzcy"
 
-# Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
-
-# Build settings
 markdown:           kramdown
 paginate:           5
 paginate_path:      "/posts/page:num/"
