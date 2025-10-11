@@ -1,123 +1,80 @@
-/* Lora Font Family */
+/* Rubik Font Family */
 @font-face {
-  font-family: 'Lora';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url('./fonts/lora-400italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Lora';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url('./fonts/lora-700italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('./fonts/lora-400.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('./fonts/lora-700.ttf') format('truetype');
-}
-
-/* Open Sans Font Family */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 300;
-  font-stretch: normal;
-  font-display: swap;
-  src: url('./fonts/opensans-300italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  font-stretch: normal;
-  font-display: swap;
-  src: url('./fonts/opensans-400italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 600;
-  font-stretch: normal;
-  font-display: swap;
-  src: url('./fonts/opensans-600italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 700;
-  font-stretch: normal;
-  font-display: swap;
-  src: url('./fonts/opensans-700italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 800;
-  font-stretch: normal;
-  font-display: swap;
-  src: url('./fonts/opensans-800italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Open Sans';
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 300;
-  font-stretch: normal;
   font-display: swap;
-  src: url('./fonts/opensans-300.ttf') format('truetype');
+  src: url('./fonts/Rubik-Light.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./fonts/Rubik-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  font-stretch: normal;
   font-display: swap;
-  src: url('./fonts/opensans-400.ttf') format('truetype');
+  src: url('./fonts/Rubik-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./fonts/Rubik-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
   font-style: normal;
-  font-weight: 600;
-  font-stretch: normal;
+  font-weight: 500;
   font-display: swap;
-  src: url('./fonts/opensans-600.ttf') format('truetype');
+  src: url('./fonts/Rubik-Medium.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./fonts/Rubik-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 700;
-  font-stretch: normal;
   font-display: swap;
-  src: url('./fonts/opensans-700.ttf') format('truetype');
+  src: url('./fonts/Rubik-Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 800;
-  font-stretch: normal;
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 700;
   font-display: swap;
-  src: url('./fonts/opensans-800.ttf') format('truetype');
+  src: url('./fonts/Rubik-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('./fonts/Rubik-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url('./fonts/Rubik-BlackItalic.ttf') format('truetype');
 }
