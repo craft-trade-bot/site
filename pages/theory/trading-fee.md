@@ -3,7 +3,7 @@ layout: post
 title: "Биржевые комиссии при работе с сеточным ботом"
 subtitle: "В этой статье мы разберём, как устроены торговые комиссии, какую роль они играют и как минимизировать их влияние"
 date: 2025-10-10
-background: '/img/posts/2025/10/10-trading-fee.webp'
+background: '/img/pages/theory/trading-fee.webp'
 ---
 
 <!--{
