@@ -1,5 +1,5 @@
 services:
-  jekyll:
+  app:
     build: .
     ports:
-      - '4000:4000'
+      - 8080:8080
