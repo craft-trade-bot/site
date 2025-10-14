@@ -14,6 +14,8 @@ import { getCollection } from 'astro:content';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const style_mark = { style: 'font-weight: 600;', class: 'text-green-500' };
 ---
 
 <!doctype html>
@@ -28,27 +30,27 @@ const posts = (await getCollection('blog')).sort(
         <main>
 
             <div class="container mx-auto p-10">
-                <div class="prose max-w-none text-gray-100 marker:text-green-500">
+                <div class="prose max-w-none text-gray-100 marker:text-green-500 text-justify">
                     <h2 style="font-weight: 800" class="text-center text-gray-100">
                         <span class="text-green-500">Craft Trade</span> – платформа для создания торговых стратегий
                     </h2>
                     <p>Наши преимущества:</p>
                     <ul>
-                        <li>Простота настройки и запуска торговли (mini APP Telegram)</li>
+                        <li>Простота настройки и запуска торговли (<span {...style_mark}>MiniApp Telegram</span>)</li>
                         <li>Прозрачные условия</li>
-                        <li>Самые низкие комиссии среди конкурентов, <span class="text-green-500">всего 6% от прибыли</span>, годовая подписка всего $60</li>
+                        <li>Самые низкие комиссии среди конкурентов, <span {...style_mark}>всего 6% от прибыли</span>, годовая подписка <span {...style_mark}>всего $60</span></li>
                     </ul>
-                    <p>Торговый робот Craft Trade был спроектирован и создан как не коммерческий продукт для собственного использования в качестве инструмента позволяющего автоматизировать спотовую торговлю основной криптовалютой (Bitcoin, Etherium, XRP, LITE COIN, DOGE) на самых популярных биржах.</p>
+                    <p>Торговый робот <span {...style_mark}>Craft Trade</span> был спроектирован и создан как не коммерческий продукт <span {...style_mark}>для собственного использования</span> в качестве инструмента позволяющего автоматизировать спотовую торговлю основной криптовалютой (Bitcoin, Etherium, XRP, LITE COIN, DOGE) на самых популярных биржах.</p>
                     <p>В апреле 2025 года завершился этап тестирования, и мы приступили к полноценной работе с собственным продуктом.</p>
-                    <p>За 6 месяцев мы добились серьёзного прогресса по части улучшения функционала приложения и повышения стабильности работы.</p>
+                    <p>За 6 месяцев мы добились <span {...style_mark}>серьёзного прогресса</span> по части улучшения функционала приложения и повышения стабильности работы.</p>
                     <p>В настоящее время мы уверенно смотрим в будущее и с гордость сообщаем, что Craft trade это:</p>
                     <ul>
-                        <li><span class="text-green-500">Реализованная интеграция</span> с крупнейшими биржами (BingX, ByBit, OKX)</li>
-                        <li><span class="text-green-500">Стабильность работы</span> приложения (uptime 99%)</li>
-                        <li><span class="text-green-500">Максимальное количество</span> поддерживаемых монет</li>
-                        <li><span class="text-green-500">Возможность копировать</span> торговые стратегии других пользователетй Craft Trade</li>
+                        <li><span {...style_mark}>Интеграция</span> с крупнейшими биржами (BingX, ByBit, OKX)</li>
+                        <li><span {...style_mark}>Стабильность</span> работы приложения (uptime 99%)</li>
+                        <li><span {...style_mark}>Максимальное количество</span> поддерживаемых монет</li>
+                        <li><span {...style_mark}>Возможность копировать</span> торговые стратегии других пользователетй Craft Trade</li>
                     </ul>
-                    <!-- <p style="font-weight: 800" class="text-right text-green-500">"Автоматизируй свой успех"</p> -->
+                    <!-- <p {...style_mark}>"Автоматизируй свой успех"</p> -->
                 </div>
             </div>
 
