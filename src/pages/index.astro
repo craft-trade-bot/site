@@ -26,6 +26,32 @@ const posts = (await getCollection('blog')).sort(
         <HomeBanner />
         <HomeStocks />
         <main>
+
+            <div class="container mx-auto p-10">
+                <div class="prose max-w-none text-gray-100 marker:text-green-500">
+                    <h2 style="font-weight: 800" class="text-center text-gray-100">
+                        <span class="text-green-500">Craft Trade</span> – платформа для создания торговых стратегий
+                    </h2>
+                    <p>Наши преимущества:</p>
+                    <ul>
+                        <li>Простота настройки и запуска торговли (mini APP Telegram)</li>
+                        <li>Прозрачные условия</li>
+                        <li>Самые низкие комиссии среди конкурентов, <span class="text-green-500">всего 6% от прибыли</span>, годовая подписка всего $60</li>
+                    </ul>
+                    <p>Торговый робот Craft Trade был спроектирован и создан как не коммерческий продукт для собственного использования в качестве инструмента позволяющего автоматизировать спотовую торговлю основной криптовалютой (Bitcoin, Etherium, XRP, LITE COIN, DOGE) на самых популярных биржах.</p>
+                    <p>В апреле 2025 года завершился этап тестирования, и мы приступили к полноценной работе с собственным продуктом.</p>
+                    <p>За 6 месяцев мы добились серьёзного прогресса по части улучшения функционала приложения и повышения стабильности работы.</p>
+                    <p>В настоящее время мы уверенно смотрим в будущее и с гордость сообщаем, что Craft trade это:</p>
+                    <ul>
+                        <li><span class="text-green-500">Реализованная интеграция</span> с крупнейшими биржами (BingX, ByBit, OKX)</li>
+                        <li><span class="text-green-500">Стабильность работы</span> приложения (uptime 99%)</li>
+                        <li><span class="text-green-500">Максимальное количество</span> поддерживаемых монет</li>
+                        <li><span class="text-green-500">Возможность копировать</span> торговые стратегии других пользователетй Craft Trade</li>
+                    </ul>
+                    <!-- <p style="font-weight: 800" class="text-right text-green-500">"Автоматизируй свой успех"</p> -->
+                </div>
+            </div>
+
             <ListPosts posts={posts} level={2} title="Последние статьи" />
         </main>
         <Home3o />
