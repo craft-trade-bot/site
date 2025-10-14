@@ -8,14 +8,16 @@ const { posts, level, title } = Astro.props;
     <div class="text-2xl font-bold pb-10">
         { level === 1 ? <h1>{title}</h1> : <h2>{title}</h2> }
     </div>
-    <ul class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+    <ul class="grid gap-10 lg:grid-cols-2">
         { posts.map((post) => (
         <li class="hover:scale-105 transition-all duration-300">
             <a href={`/blog/${post.id}/`}>
                 {post.data.heroImage && (
-                    <Image loading="lazy" width={800} height={400} src={post.data.heroImage} alt={post.data.title} />
+                    <Image class="rounded-t-4xl" loading="lazy" width={800} height={400} src={post.data.heroImage} alt={post.data.title} />
                 )}
-                { level === 1 ? <h2>{post.data.title}</h2> : <h3>{post.data.title}</h3> }
+                <div style="background-color:rgba(0,0,0,0.5);" class="p-5 rounded-b-4xl">
+                    { level === 1 ? <h2>{post.data.title}</h2> : <h3>{post.data.title}</h3> }
+                </div>
             </a>
         </li>
         )) }
