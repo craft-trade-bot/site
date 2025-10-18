@@ -4,8 +4,6 @@ import Footer   from '../../components/Footer.astro';
 import Header   from '../../components/Header.astro';
 import Home3o   from '../../components/Home3o.astro';
 
-import { Image } from 'astro:assets';
-
 import { getCollection, render } from 'astro:content';
 const post = Astro.props;
 const { Content } = await render(post);
@@ -28,12 +26,10 @@ export async function getStaticPaths() {
 		<Header />
         <main>
             <div class="mx-auto max-w-3xl xl:max-w-5xl bg-gray-300">
-                {post.data.heroImage && (
-                 //<Image width={1024} height={512} src={post.data.heroImage} alt={post.data.title} />
-                    <div class="bg-cover bg-center h-40 lg:h-60 2xl:h-80" style={`background-image: url(${post.data.heroImage.src})`}></div>
-                )}
-                <div class="prose max-w-none marker:text-gray-900 p-5">
+                <div style="background-image: url(/imgs/list/bg-posts.webp)" class="p-5 aspect-3/1 bg-center bg-cover font-bold text-3xl flex justify-center items-center text-center">
                     <h1>{post.data.title}</h1>
+                </div>
+                <div class="prose max-w-none marker:text-gray-900 p-5">
                     <Content />
                 </div>
             </div>

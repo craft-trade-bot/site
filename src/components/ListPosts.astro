@@ -1,6 +1,4 @@
 ---
-import { Image } from 'astro:assets';
-
 const { posts, level, title } = Astro.props;
 ---
 
@@ -12,10 +10,7 @@ const { posts, level, title } = Astro.props;
         { posts.map((post) => (
         <li class="hover:scale-105 transition-all duration-300">
             <a href={`/blog/${post.id}/`}>
-                {post.data.heroImage && (
-                    <Image class="rounded-t-4xl" loading="lazy" width={800} height={400} src={post.data.heroImage} alt={post.data.title} />
-                )}
-                <div style="background-color:rgba(0,0,0,0.8);" class="p-5 rounded-b-4xl">
+                <div style="background-image: url(/imgs/list/bg-posts.webp)" class="p-5 rounded-4xl aspect-3/1 bg-center bg-cover font-bold text-3xl flex items-center">
                     { level === 1 ? <h2>{post.data.title}</h2> : <h3>{post.data.title}</h3> }
                 </div>
             </a>
