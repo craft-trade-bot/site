@@ -33,7 +33,6 @@ export async function getStaticPaths() {
                     <div class="bg-cover bg-center h-40 lg:h-60 2xl:h-80" style={`background-image: url(${post.data.heroImage.src})`}></div>
                 )}
                 <div class="prose max-w-none marker:text-gray-900 p-5">
-                    <h1>{post.data.title}</h1>
                     <Content />
                 </div>
             </div>
