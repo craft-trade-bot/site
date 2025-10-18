@@ -17,7 +17,7 @@ const { posts, level, title } = Astro.props;
                 )}
                 <div style="background-color:rgba(0,0,0,0.8);" class="p-5 rounded-b-4xl">
                     <div class="text-xl font-bold">{ level === 1 ? <h2>{post.data.title}</h2> : <h3>{post.data.title}</h3> }</div>
-                    <div class="text-gray-400 pt-5 text-justify">{post.data.description}</div>
+                    <div class="text-gray-400 pt-5">{post.data.description}</div>
                 </div>
             </a>
         </li>
