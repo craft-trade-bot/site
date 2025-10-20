@@ -6,8 +6,8 @@ heroImage: '../../../assets/imgs/pages-details/best-crypto-trading-bots.webp'
 ---
 
 <!-- [21.13, 59] turgenev=4 -->
-<!-- https://turgenev.ashmanov.com/?t=s400f2c4b1f85a67af4fa91c04b448d11 -->
 <!-- https://turgenev.ashmanov.com/?t=sf09c4f5c3b5269b6ead459a4c9ef5a2c -->
+<!-- [...]/ru/best-crypto-trading-bots -->
 
 # Почему спотовый робот как отдельное приложение лучше роботов предлагаемых самой биржей
 
