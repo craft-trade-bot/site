@@ -45,6 +45,7 @@ export async function getStaticPaths() {
 	<head>
 		<BaseHead title={post.data.title} description={post.data.description} />
         <script type="application/ld+json" set:html={JSON.stringify(json_ld)} />
+        <meta property="og:image" content={post.data.heroImage.src} />
     </head>
 	<body class="bg-gray-900 text-gray-100">
 		<Header />
