@@ -10,6 +10,27 @@ import { getCollection, render } from 'astro:content';
 const post = Astro.props;
 const { Content } = await render(post);
 
+const json_ld = [{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home",      "item": new URL('/',     Astro.site) },
+        { "@type": "ListItem", "position": 2, "name": "All Posts", "item": new URL('blog/', Astro.site) },
+        { "@type": "ListItem", "position": 3, "name": post.data.title }
+    ]
+},{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": post.data.title,
+    "image": [ post.data.heroImage.src ],
+    "datePublished": post.data.pubDate.toISOString(),
+    "author": [{
+        "@type": "Person",
+        "name": "Craft Trade",
+        "url": Astro.site
+    }]
+}];
+
 export async function getStaticPaths() {
     const posts = await getCollection('blog');
     return posts.map((post) => ({
@@ -23,7 +44,8 @@ export async function getStaticPaths() {
 <html lang="ru">
 	<head>
 		<BaseHead title={post.data.title} description={post.data.description} />
-	</head>
+        <script type="application/ld+json" set:html={JSON.stringify(json_ld)} />
+    </head>
 	<body class="bg-gray-900 text-gray-100">
 		<Header />
         <main>
