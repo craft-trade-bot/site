@@ -2,7 +2,7 @@
 title: "Преимущества торговли спотовым крипто ботом Craft Trade"
 description: "Узнайте о преимуществах торговли криптовалютой через бот Craft Trade: автоматизация 24/7, безопасность через API, стабильный доход без эмоций. Реальный опыт и советы."
 pubDate: 2025-10-17
-heroImage: '../../../assets/imgs/pages-details/advantages-of-using.webp'
+heroImage: '../../../assets/imgs/advantages-of-using.webp'
 ---
 
 <!-- [1.69%/31, 0%, 63%] turgenev=0 -->

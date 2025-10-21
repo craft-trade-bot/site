@@ -2,7 +2,7 @@
 title: "Типы торговых ордеров и их применение в сеточном боте"
 description: "Разбор всех типов ордеров в трейдинге. Механика работы, преимущества и недостатки. Как Craft Trade избегает блокировки средств с помощью рыночных ордеров."
 pubDate: 2025-10-18
-heroImage: '../../../assets/imgs/pages-theory/types-of-orders.webp'
+heroImage: '../../../assets/imgs/types-of-orders.webp'
 ---
 
 <!-- [0%/0, 17.6%, 66%] turgenev=0 -->
