@@ -1,5 +1,5 @@
 ---
-import { SITE_TITLE, TELEGRAM_BOT, TELEGRAM_CHANNEL, LINK_DOC } from '../consts';
+import { SITE_TITLE, TELEGRAM_BOT, TELEGRAM_CHANNEL, LINK_DOC, LINK_PARTNER } from '../consts';
 
 import Metrika from './Metrika.astro';
 
@@ -15,6 +15,12 @@ const today = new Date();
                 <a class="hover:text-gray-300" href={LINK_DOC}>Статьи</a>
                 <a class="hover:text-gray-300" href={TELEGRAM_BOT}>Начать торговлю</a>
             </div>
+        </div>
+
+        <div class="p-2"></div>
+
+        <div class="flex items-center justify-center lg:justify-end text-center text-sm">
+            <a class="hover:text-gray-300" href={LINK_PARTNER}>Партнерская программа</a>
         </div>
     </footer>
 </div>

@@ -7,3 +7,5 @@ export const SITE_DESCRIPTION = 'CraftTradeBot — современное при
 export const TELEGRAM_BOT     = "https://t.me/craft_trade_bot?start=official"
 export const TELEGRAM_CHANNEL = "https://t.me/+NL0KuVkfenE2Yzcy"
 export const LINK_DOC         = "/blog/"
+
+export const LINK_PARTNER     = "/blog/komissii-i-voznagrazhdenija/#для-тех-кто-любит-делиться--бонусы-за-друзей"
