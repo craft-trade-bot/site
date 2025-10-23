@@ -1,0 +1,9 @@
+['019'] /blog/details/advantages-of-using.md
+['021'] /blog/kak-torgovat-kriptoj-bez-riska.md
+['022'] /blog/theory/types-of-orders.md
+['048'] /blog/details/realnyj-opyt-torgovli-kriptovalyutoj.md
+['051'] /blog/theory/trading-fee.md
+['058'] /blog/osnovnye-sposoby-zarabotka-na-kripte.md
+['061'] /blog/details/calculation-of-fees.md
+['069'] /blog/komissii-i-voznagrazhdenija.md
+['076'] /blog/details/best-crypto-trading-bots.md
