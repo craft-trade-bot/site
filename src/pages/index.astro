@@ -7,7 +7,7 @@ import HomeBanner from '../components/HomeBanner.astro';
 import HomeStocks from '../components/HomeStocks.astro';
 import ListPosts  from '../components/ListPosts.astro';
 
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION, LINK_DOC } from '../consts';
 
 import { getCollection } from 'astro:content';
 
@@ -41,7 +41,7 @@ const json_ld = [{
 
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+).slice(0, 6);
 
 const style_mark = { style: 'font-weight: 600;', class: 'text-green-500' };
 ---
@@ -84,6 +84,10 @@ const style_mark = { style: 'font-weight: 600;', class: 'text-green-500' };
             </div>
 
             <ListPosts posts={posts} level={2} title="Последние статьи" />
+
+            <div class="p-5 flex justify-center">
+                <a class="px-10 py-5 bg-green-500 text-green-950 rounded-4xl text-center text-xl font-bold" href={LINK_DOC}>Все статьи</a>
+            </div>
         </main>
         <Home3o />
 		<Footer />
