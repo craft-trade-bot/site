@@ -7,8 +7,8 @@ const today = new Date();
 ---
 
 <div class="text-gray-100" style="background-color:rgba(0,0,0,0.8);font-weight:800;">
-    <footer class="container mx-auto px-10 py-5">
-        <div class="flex gap-4 lg:gap-0 items-center flex-col lg:flex-row justify-between text-center">
+    <footer class="container mx-auto p-10 text-center">
+        <div class="flex gap-4 lg:gap-0 items-center flex-col lg:flex-row justify-between">
             <div>&copy; {today.getFullYear()} {SITE_TITLE}</div>
             <div class="flex gap-4 sm:gap-8 items-center text-sm">
                 <a class="hover:text-gray-300" href={TELEGRAM_CHANNEL}>Группа в Telegram</a>
@@ -19,8 +19,15 @@ const today = new Date();
 
         <div class="p-2"></div>
 
-        <div class="flex items-center justify-center lg:justify-end text-center text-sm">
+        <div class="flex items-center justify-center lg:justify-end text-sm">
             <a class="hover:text-gray-300" href={LINK_PARTNER}>Партнерская программа</a>
+        </div>
+
+        <div class="p-2"></div>
+
+        <div class="max-w-2xl mx-auto font-normal text-xs text-gray-400">
+            Команда Craft Trade является разработчиком программного обеспечения и не предоставляет услуги трейдинга,
+            обмена, переводов или кошельков. Все упомянутые услуги осуществляются сторонними поставщиками.
         </div>
     </footer>
 </div>
