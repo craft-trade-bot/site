@@ -8,7 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://crafttradebot.ru',
+  site: 'https://crafttrade-bot.ru',
   integrations: [mdx(), sitemap()],
 
   vite: {
